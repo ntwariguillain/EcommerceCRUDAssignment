@@ -21,8 +21,6 @@ A Spring Boot RESTful API for managing products in an e-commerce system with ful
 
 ## Prerequisites
 
-Before running this application, ensure you have:
-
 - Java 17 or higher installed
 - PostgreSQL installed and running
 - Maven installed
@@ -43,7 +41,7 @@ The application will start on `http://localhost:8089`
 | DELETE | `/{id}` | Delete a product |
 | GET | `/search?category={category}` | Search products by category |
 
-## API Usage Examples
+## API Usage Examples used
 
 ### 1. Create a Product
 ```bash
@@ -148,13 +146,6 @@ The API returns appropriate HTTP status codes:
 - `404 NOT_FOUND` - Resource not found
 - `302 FOUND` - Search results found
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Author
 
