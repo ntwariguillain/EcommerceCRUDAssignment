@@ -28,42 +28,6 @@ Before running this application, ensure you have:
 - Maven installed
 - Git installed
 
-## Database Setup
-
-1. Create a PostgreSQL database:
-```sql
-CREATE DATABASE ecommerce_db;
-```
-
-2. The application will automatically create the required tables on startup.
-
-## Installation & Setup
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YOUR_USERNAME/restfullApiAssignment.git
-cd restfullApiAssignment
-```
-
-2. **Configure database connection:**
-
-   Copy `application-example.properties` to `application.properties` and update with your credentials:
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
-spring.datasource.username=postgres
-spring.datasource.password=YOUR_PASSWORD
-```
-
-3. **Build the project:**
-```bash
-mvn clean install
-```
-
-4. **Run the application:**
-```bash
-mvn spring-boot:run
-```
-
 The application will start on `http://localhost:8089`
 
 ## API Endpoints
