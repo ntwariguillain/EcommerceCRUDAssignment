@@ -194,8 +194,8 @@ The API returns appropriate HTTP status codes:
 
 ## Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+Ntwari Guillain
+- GitHub: [@YOUR_USERNAME](https://github.com/ntwariguillain)
 
 ## License
 
